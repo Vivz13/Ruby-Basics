@@ -11,3 +11,8 @@ def reverse(word)
   word=revwor.join("")
   return word
 end
+
+
+p reverse("a") == "a"
+p reverse("abba") == "abba"
+p reverse("coding is fun")=="nuf si gnidoc"
